@@ -1,0 +1,21 @@
+.overflowBox::-webkit-scrollbar {
+    width: 10px;
+  }
+  /* Track */
+  .overflowBox::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  .overflowBox::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  .overflowBox::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+
+  .overflowBox {
+    overflow-y: scroll !important;
+  }
